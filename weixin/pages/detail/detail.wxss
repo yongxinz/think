@@ -1,0 +1,51 @@
+.section-detail{
+    background-color: white;
+    margin: 20px 20px 0px 20px;
+    padding: 30px 15px 10px 15px;
+    border-radius:10px;
+
+    -webkit-box-shadow:2px 2px 5px #BFBFBF;  
+    box-shadow:2px 2px 5px #BFBFBF; 
+}
+
+.top {
+    border-bottom: 1px solid #eee;
+}
+
+.top .detail {
+    font-size: 13px;
+    margin-bottom: 40rpx;
+    padding-right: 10px;
+    display: flex;
+	flex-direction: column;
+    align-items: flex-end;
+}
+
+.content {
+    font-size: 16px;
+    margin-top: 40rpx;
+    overflow-x: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    color: transparent;
+}
+
+.detail-footer {
+     height: 50px;
+     margin-right: 25px;
+     display: flex;
+     align-items: center;
+     float: right;
+}
+
+.detail-footer image {
+    width: 60rpx;
+    height: 60rpx;
+}
+
+.detail-footer .edit {
+      margin-right: 10px;  
+}

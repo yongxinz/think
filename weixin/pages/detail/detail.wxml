@@ -1,0 +1,17 @@
+ <scroll-view scroll-y="true" class="section-detail" style="width: {{ windowWidth-70 }}px;height: {{ windowHeight-110 }}px">
+    <view class="top">
+        <view class="detail">
+            <text class="year-month">{{ created }}</text>
+            <text class="location">{{ address }}</text>
+        </view>
+    </view>
+    <view class="content">
+        <text>{{ think }}</text>
+    </view>
+</scroll-view> 
+
+<view class="detail-footer">
+    <!-- <image class="delete" bindtap="thinkAdd" src="../../static/image/delete.png" /> -->
+    <image class="edit" bindtap="thinkEdit" data-id="{{id}}" src="../../static/image/edit.png" />
+    <image class="save-pic" bindtap="thinkPic" data-id="{{id}}" src="../../static/image/save_pic.png" />
+</view>

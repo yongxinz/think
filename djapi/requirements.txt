@@ -1,0 +1,6 @@
+Django==1.11.1
+djangorestframework==3.7.1
+psycopg2==2.7.3.2
+requests==2.18.4
+django-filter==1.1.0
+python-dateutil==2.6.1

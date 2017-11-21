@@ -1,0 +1,82 @@
+.page {
+    background-color: white;
+}
+
+/*搜索框*/
+ .searcher {
+	/* background: #009cf9; */
+	padding: 10px;
+    border-bottom: 1px solid #eee;
+} 
+
+/* .searcher input {
+	padding: 6px 8px;
+	background: white;
+	font-size: 14px;
+	color: #ccc;
+	border-radius: 5px;
+	text-align: center;
+} */
+
+ .placeholder-class {
+	 color: #ccc; 
+    font-size: 14px;
+     /* padding: 10px;  */
+	/* text-align: center;  */
+} 
+
+/*标题头*/
+/* .header {
+	background: #eee;
+	font-size: 14px;
+	padding: 10px;
+	line-height: 24px;
+	color: #444;
+} */
+
+/*当前定位*/
+.current {
+	/* color: #1a80d2; */
+	padding: 20px 20px 20px 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    border-bottom: 1px solid #eee;
+}
+
+.current text {
+	font-size: 14px;
+	width: 100%;
+}
+
+.current image {
+	width: 20px;
+	height: 20px;
+}
+
+.current image:after {
+	content: '重新定位';
+}
+
+/*结果行*/
+.item {
+    color: #ccc;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	border-bottom: 1px solid #eee;
+}
+
+.item .title {
+	width: 100%;
+	font-size: 14px;
+	line-height: 30px;
+	color: #333;
+}
+
+.item .address {
+	width: 100%;
+	font-size: 12px;
+	line-height: 24px;
+	color: #666;
+}

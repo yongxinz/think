@@ -1,0 +1,23 @@
+<view class="top-index weui-flex">
+    <view class="page__title" style='font-size: 60rpx;padding-right: 30rpx;'>今天</view>
+    <image class="image-index" bindtap="thinkAdd" src="../../static/image/add.png"></image>
+    <image class="image-index" bindtap="earthSave" src="../../static/image/earth.png"></image>
+</view>
+
+<view class="page__bd page__bd_spacing">
+    <view class="kind-list">
+        <block wx:for="{{apiData.results}}" wx:key="id">
+            <view class="kind-list__item" bindtap="thinkDetail" data-id="{{ item.id }}">
+                <view id="{{item.id}}" class="weui-flex kind-list__item-hd">
+                    <view class="" style='display: flex;flex-direction: column;width: 25%'>
+                        <view>
+                            <text class="day">{{ item.day }}</text><span class="month">{{ item.month }}月</span>
+                        </view>
+                        <text class="location">{{ item.city }}</text>
+                    </view>
+                    <view class="weui-flex__item content" style='width: 75%'>{{item.think}}</view>
+                </view>
+            </view>
+        </block>
+    </view>
+</view>

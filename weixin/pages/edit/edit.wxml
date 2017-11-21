@@ -1,0 +1,12 @@
+<view class="section-edit" style="height: {{ windowHeight-185 }}px">
+    <textarea class="" value='{{think}}' maxlength="1000" bindinput="keywordTyping" placeholder="" style="width: 100%;height: {{ windowHeight-185 }}px" />
+</view>
+
+<view class="location" bindtap="selectLocation">
+    <image src="../../static/image/location.png" />
+    <text>{{address}}</text>
+</view>
+
+<view class="edit-footer">
+    <button class="button-done" type="primary" bindtap="thinkDone">完成</button>
+</view>

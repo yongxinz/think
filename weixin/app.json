@@ -1,0 +1,17 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/index/earth/earth",
+        "pages/detail/detail",
+        "pages/detail/share/share",
+        "pages/edit/edit",
+        "pages/edit/location/location",
+        "pages/logs/logs"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "灵感乍现",
+        "navigationBarTextStyle": "black"
+    }
+}
