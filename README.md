@@ -15,7 +15,7 @@ Python 版本为 python3.6，后端使用：Django + restframework <br>
 >mkvirtualenv think --python=python3
 
 2、安装依赖包
->cd djapi
+>cd djapi <br>
 >pip install -r requestments.txt
 
 3、配置 APPID 和 APPsecret
