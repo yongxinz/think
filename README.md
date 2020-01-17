@@ -1,4 +1,9 @@
+欢迎关注我的微信公众号：AlwaysBeta，更多精彩内容等你来。
+
+![](http://ww1.sinaimg.cn/large/0061a0TTgy1gaqr087j9xj3076076wex.jpg)
+
 # think
+
 记录位置和想法，以时间线形式来展示的微信小程序
 
 ![](http://ohl540wt2.bkt.clouddn.com/2017-11-20.gif)
